@@ -4,6 +4,6 @@ function calculaDistancia(angulo, velocidadInicial){
 }
 
 function gradosARadianes(grados){
-  let radianes = grados*(180/Math.PI);
+  let radianes = grados*Math.PI/180;
   return radianes;
 }
