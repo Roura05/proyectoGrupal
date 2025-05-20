@@ -1,5 +1,5 @@
 function calculaDistancia(angulo, velocidadInicial){
-  let distancia = velocidadInicial*velocidadInicial*Math.sin(angulo)/0.81;
+  let distancia = velocidadInicial*velocidadInicial*Math.sin(angulo)/9.81;
   return distancia;
 }
 
